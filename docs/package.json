@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs",
-    "deploy": "vitepress build docs && gh-pages -d docs/.vitepress/dist"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "deploy": "vitepress build && gh-pages -d .vitepress/dist"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "vitepress": "^1.6.3"
+    "vitepress": "^2.0.0-alpha.6"
   },
   "dependencies": {
     "@miletorix/vitepress-back-to-top-button": "^1.0.1",
