@@ -10,7 +10,7 @@
     "vitepress": "^2.0.0-alpha.6"
   },
   "dependencies": {
-    "@miletorix/vitepress-back-to-top-button": "^1.0.1",
+    "@miletorix/vitepress-back-to-top-button": "workspace:",
     "@miletorix/vitepress-image-group": "^0.1.0",
     "markdown-it": "^14.1.0",
     "vitepress-plugin-group-icons": "^1.6.1"
