@@ -24,15 +24,15 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Github Page', link: 'https://github.com/miletorix/vitepress-back-to-top-button' },
-      { text: 'NPM Page', link: 'https://www.npmjs.com/package/@miletorix/vitepress-back-to-top-button' }
+      { text: 'Github Page', link: 'https://github.com/DavidingPlus/vitepress-back-to-top-button' },
+      { text: 'NPM Page', link: 'https://www.npmjs.com/package/@davidingplus/vitepress-back-to-top-button' }
     ],
     sidebar: [
       { text: 'Home', link: '/index' },
     ],
 
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/miletorix' }
-    // ]
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/DavidingPlus' }
+    ]
   }
 })

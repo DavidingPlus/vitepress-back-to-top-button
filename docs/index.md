@@ -10,14 +10,14 @@ sidebar: false
 
 A lightweight Back-to-Top button Vue 3 component for VitePress. Features smooth scroll, progress ring indicating scroll percentage, dark/light theme support.
 
-![npm](https://img.shields.io/npm/v/@miletorix/vitepress-back-to-top-button)  
-![npm](https://img.shields.io/npm/dw/@miletorix/vitepress-back-to-top-button)  
-![license](https://img.shields.io/npm/l/@miletorix/vitepress-back-to-top-button)
+![npm](https://img.shields.io/npm/v/@davidingplus/vitepress-back-to-top-button)  
+![npm](https://img.shields.io/npm/dw/@davidingplus/vitepress-back-to-top-button)  
+![license](https://img.shields.io/npm/l/@davidingplus/vitepress-back-to-top-button)
 
 ## Installation
 
 ```sh [npm]
-npm i @miletorix/vitepress-back-to-top-button
+npm i @davidingplus/vitepress-back-to-top-button
 ```
 
 ## Usage
@@ -28,8 +28,8 @@ npm i @miletorix/vitepress-back-to-top-button
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 
-import BackToTopButton from '@miletorix/vitepress-back-to-top-button' //[!code ++]
-import '@miletorix/vitepress-back-to-top-button/style.css' //[!code ++]
+import BackToTopButton from '@davidingplus/vitepress-back-to-top-button' //[!code ++]
+import '@davidingplus/vitepress-back-to-top-button/style.css' //[!code ++]
 
 export default {
   extends: DefaultTheme,
@@ -45,8 +45,8 @@ export default {
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 
-import BackToTopButton from '@miletorix/vitepress-back-to-top-button' //[!code ++]
-import '@miletorix/vitepress-back-to-top-button/style.css' //[!code ++]
+import BackToTopButton from '@davidingplus/vitepress-back-to-top-button' //[!code ++]
+import '@davidingplus/vitepress-back-to-top-button/style.css' //[!code ++]
 
 export default {
   extends: DefaultTheme,
@@ -80,3 +80,4 @@ Fusce consequat tortor ante, sed consequat odio consequat id. Mauris id odio gra
 Aliquam et eros suscipit, imperdiet purus in, vulputate erat. Proin metus metus, facilisis eu odio eget, congue tempus arcu. Proin ut tellus urna. Pellentesque convallis enim ut nunc fermentum interdum in non neque. Sed blandit risus sed tempor laoreet. Fusce sem libero, lobortis nec lacinia ut, rhoncus eget mauris. Nullam id ante sed nulla ultricies faucibus eu ut elit. Quisque dapibus aliquam volutpat. Donec non vulputate turpis, ac feugiat nibh. Integer sed volutpat augue, at rutrum ipsum.
 
 Nam lacinia aliquet gravida. Praesent tincidunt pellentesque velit eu tincidunt. Nunc eget neque auctor, fermentum leo eget, tristique augue. Maecenas nec tellus et ex tempus congue id ut elit. Phasellus in ante eu massa consequat scelerisque. Morbi iaculis urna quis consequat aliquet. Sed aliquam, dui in convallis facilisis, sem ligula congue mauris, a condimentum sapien odio sit amet turpis. Suspendisse potenti. Etiam egestas sollicitudin tellus sed ornare. Aliquam mollis posuere massa. Sed elementum lacus sit amet sem facilisis tincidunt. Quisque sollicitudin venenatis dui id blandit. Integer a eros eu leo lacinia volutpat nec nec mauris. 
+
