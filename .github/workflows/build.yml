@@ -20,14 +20,19 @@ jobs:
         with:
           node-version: 22
 
-      - name: Build Package
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Build package
         run: |
           pnpm install
           pnpm run build
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
-      - name: Build Website
+      - name: Build website
         working-directory: ${{github.workspace}}/docs
         run: |
           pnpm install
