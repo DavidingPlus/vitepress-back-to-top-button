@@ -36,11 +36,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Upload artifacts
-        working-directory: ${{github.workspace}}/docs
         uses: actions/upload-artifact@v4
         with:
           name: dist
-          path: .vitepress/dist
+          path: docs/.vitepress/dist
           include-hidden-files: true
           if-no-files-found: error
 
