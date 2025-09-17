@@ -2,11 +2,9 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview",
-    "deploy": "vitepress build && gh-pages -d .vitepress/dist"
+    "preview": "vitepress preview"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
     "vitepress": "^2.0.0-alpha.6",
     "vue": "^3.5.21"
   },
